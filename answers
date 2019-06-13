@@ -1,0 +1,10 @@
+4)
+La diferencia en tre Int.parse() e IntTryParse() es que la primera ejecuta directamente la conversion a int sin verificar si se puede realizar dicha conversion.
+En cambio IntTryParse() primero se verifica si es posible realizar la conversion, arroja un boolean para que nosotros podamos realizar la conversion de forma segura.
+Personalmente prefiero utilizar el try parse ya que me asegura una conversion segura impidiendo que se rompa el còdigo. 
+
+
+5)
+El CoreFX es la biblioteca de clases de NET core, al darnos la clase system podemos acceder a todas las librerias del framework, por ej: system.object.
+
+6)Si a la firma del metodo ponemos virtual quiere decir que podemos sobreescribir el metedo con override.
